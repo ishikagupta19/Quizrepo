@@ -2,9 +2,6 @@ const router = require("express").Router()
 const mongoose = require("mongoose")
 const User = require("../models/userModel")
 const Ques = require("../models/quesSchema")
-// const { default: Question } = require("../client/src/components/Question/Question")
-// const authAdmin = require("../middleware/authAdmin")
-// const authenticate =require("../middleware/auth")
 
 
 // router.post("/login" ,  async(req,res) =>{

@@ -33,7 +33,7 @@ const Showques = () => {
 
     } catch (err) {
         console.log(err);
-        navigate('/addques');
+        navigate('/showques');
     }
   }
 
